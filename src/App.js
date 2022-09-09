@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import ProgressBarJui from './ProgressBarJui';
 
 class DatePicker extends React.Component {
 
@@ -39,8 +38,6 @@ class App extends React.Component {
           })
         })}
           initialDate={this.state.initialDate} />
-        <br />
-        <ProgressBarJui percent={50} />
       </div>
     );
   }
